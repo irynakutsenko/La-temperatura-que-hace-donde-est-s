@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio If Else</title>
+</head>
+
+<body>
+    <script>
+
+        let temperatura = parseInt(prompt("¿Que temperatura hace?"));
+
+        console.log("Esta " + temperatura + " grados.");
+
+        if (temperatura >= 40) {
+            console.log("Vete a otro sitio.");
+        } else if (temperatura < 40 && temperatura >= 30) {
+            console.log("Enciende el aire acondicionado.");
+        } else if (temperatura < 30 && temperatura >= 20) {
+            console.log("No hagas nada.");
+        } else if (temperatura < 20 && temperatura >= 10) {
+            console.log("Enciende la calefaccion.");
+        } else if (temperatura < 10) {
+            console.log("Vete a otro sitio.");
+        }
+        
+    </script>
+</body>
+
+</html>
